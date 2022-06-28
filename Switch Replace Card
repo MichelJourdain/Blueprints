@@ -1,0 +1,13 @@
+blueprint:
+  custom_cards:
+  - mushroom-entity-card
+  description: replaces entity Switch card with mushroom entity card by Michel Jourdain
+  name: Replace Mushroom Switch Entity Card
+  type: replace-card
+  version: '1.0'
+card:
+  entity: $replace_with_input_entity$
+  name: $replace_with_input_name$
+  type: custom:mushroom-entity-card
+  tap_action:
+     action: toggle
